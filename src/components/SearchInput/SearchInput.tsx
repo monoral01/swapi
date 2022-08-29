@@ -1,5 +1,5 @@
 import { FC } from "react"
-import styles from './PeopleList.module.css';
+import styles from './SearchInput.module.css';
 
 interface SearchInputProps {
  setFilterQuery: (pageNumber: number, query: string) => void;
