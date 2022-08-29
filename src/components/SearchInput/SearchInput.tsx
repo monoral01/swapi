@@ -9,11 +9,11 @@ export const SearchInput: FC<SearchInputProps> = ({setFilterQuery}) => {
     const initialPageNumber = 1;
     return <div className={styles.search}>
         <input
-        className={styles.input}
-        placeholder="Search"
-        onChange={(event) =>
-            setFilterQuery(initialPageNumber, event.target.value)
-        }
+            className={styles.input}
+            placeholder="Search"
+            onChange={(event) =>
+                setFilterQuery(initialPageNumber, event.target.value)
+            }
         />
   </div>
 }
