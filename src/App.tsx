@@ -2,10 +2,10 @@ import { FC, useState, useEffect } from 'react';
 import styles from './assets/styles/App.module.css';
 import { People } from './models/types';
 import { fetchData } from './services/service';
-import { Header } from './components/Header/Header';
-import { PeopleList } from './components/List/PeopleList';
-import { SearchInput } from './components/List/SearchInput';
-import { Pagination } from './components/List/Pagination';
+import { Pagination } from './components/Pagination';
+import { Header } from './components/Header';
+import { SearchInput } from './components/SearchInput';
+import { PeopleList } from './components/PeopleList';
 
 const postPerPage = 10;
 const initialPageNumber = 1;

@@ -1,5 +1,5 @@
 import { FC, useState } from "react"
-import styles from './PeopleList.module.css';
+import styles from './Pagination.module.css';
 
 interface PaginationProps {
  setFilterQuery: (pageNumber: number, query: string) => void;
